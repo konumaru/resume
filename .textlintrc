@@ -1,6 +1,42 @@
 {
   "rules": {
     "no-todo": true,
-    "very-nice-rule": false
+    "very-nice-rule": false,
+    // 一文に利用できる「、」の数を制限する
+    "max-ten": {
+        "max" : 3
+    },
+    // 漢字が連続する最大文字数を制限する
+    "max-kanji-continuous-len": {
+        max: 5,
+        allow: []
+    },
+    // 敬体(ですます調)と常体(である調)の混在をチェックする
+    "no-mix-dearu-desumasu": {
+        "preferInHeader": "",
+        "preferInBody": "ですます",
+        "preferInList": "である",
+        "strict": false
+      },
+    // 二重否定を検出する
+    "no-double-negative-ja": true,
+    // 半角カナの利用を禁止するt
+    "no-hankaku-kana": true,
+    // 弱い日本語表現の利用を禁止する
+    "ja-no-weak-phrase": true,
+    // よくある誤用をチェックする
+    "ja-no-abusage": true,
+    // 全角と半角アルファベットを混在をチェックする
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    // 一文の長さを制限する
+    "sentence-length": {
+        "max": 80
+    },
+    // ら抜き言葉を検出する
+    "no-dropping-the-ra": true,
+    // 文末の句点(。)の統一 OR 抜けをチェックするt
+    "ja-no-mixed-period": true,
+    // 入門向け日本語のプリセット
+    "preset-jtf-style": true
   }
 }

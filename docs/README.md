@@ -63,11 +63,11 @@ pdf_options:
 
 ---
 
-## 職務経歴詳細
+## 経歴詳細
 
-### Repro式会社 （2018/07〜現在）
+### Repro式会社（2018/07〜現在）
 
-クラウド請求書管理サービス Misoca の開発・運用。
+クラウド請求書管理サービスMisocaの開発・運用。
 
 - **プロジェクト名**
   - **役割**
@@ -90,7 +90,7 @@ pdf_options:
 ### OSS活動
 
 - **Pycalf**
-  - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめたPypiで公開しているライブラリ
+  - 岩波データサイエンスvol.03に沿った因果推論の技術をまとめたPypiで公開しているライブラリ
   - [https://github.com/konumaru/pycalf](https://github.com/konumaru/pycalf)
 
 <!-- Template:
@@ -99,7 +99,7 @@ pdf_options:
   - [url](url)
  -->
 
-### 技術記事投稿
+### 技術記事
 
 - **SpeakerDeck**
     - 主に新しい技術の調査についてまとめている
