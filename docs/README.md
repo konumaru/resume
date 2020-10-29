@@ -8,12 +8,14 @@
 | 生年月日    | 1996/10/22                                   |
 | Twitter     | [@knmr_u](htftps://twitter.com/knmr_u)       |
 | SpeakerDeck | [konumaru](https://speakerdeck.com/konumaru) |
+| Kaggle      | [konumaru](https://www.kaggle.com/konumaru)  |
 
 ---
 
 ## 保有スキル
 
-- Blank
+- 機械学習を用いた技術検証
+- アジャイル、スクラムの進行
 
 ---
 
@@ -22,10 +24,15 @@
 ### 言語
 
 - Python
+- SQL
 
 ### フレームワーク・その他
 
 - Scikit-Learn
+- Pytorch
+- GBTD系アルゴリズム
+- 因果推論
+- 強化学習
 
 ---
 
