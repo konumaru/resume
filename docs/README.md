@@ -6,7 +6,7 @@
 | ----------- | -------------------------------------------- |
 | 氏名        | 小沼塁                                       |
 | 生年月日    | 1996/10/22                                   |
-| Twitter     | [@knmr_u](htftps://twitter.com/knmr_u)       |
+| Twitter     | [@knmr_u](https://twitter.com/knmr_u)       |
 | SpeakerDeck | [konumaru](https://speakerdeck.com/konumaru) |
 | Kaggle      | [konumaru](https://www.kaggle.com/konumaru)  |
 
