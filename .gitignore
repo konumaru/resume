@@ -136,6 +136,9 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/node
 
+# for mac
+.DS_Store
+
 
 ## Ignore PDF
 *.pdf
