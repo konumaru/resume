@@ -141,5 +141,5 @@ dist
 
 
 ## Ignore PDF
+# *.pdf
 !CliftonStrengths_34/*.pdf
-*.pdf
