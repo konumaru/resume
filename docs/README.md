@@ -120,26 +120,33 @@
 
 ## 業務外活動
 
-### OSS 活動
-
-- **Pycalf**
-  - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
-  - [https://github.com/konumaru/pycalf](https://github.com/konumaru/pycalf)
-
 <!-- Template:
 - **活動名**
   - 主な内容
   - [url](url)
  -->
 
-### 技術記事
+### kaggle
 
-- **SpeakerDeck**
-  - 主に新しい技術の調査についてまとめている
-  - [https://speakerdeck.com/konumaru](https://speakerdeck.com/konumaru)
+- Kaggle Expert
+- 実績
+  - [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
+  - [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)
+
+### 自作ライブラリの作成
+
+- **Pycalf**
+  - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
+  - [https://github.com/konumaru/pycalf](https://github.com/konumaru/pycalf)
+
+### 技術記事
 
 <!-- Template:
 - **Platform**
   - 主な内容
   - [url](url)
  -->
+
+- **SpeakerDeck**
+  - 主に新しい技術の調査についてまとめている
+  - [https://speakerdeck.com/konumaru](https://speakerdeck.com/konumaru)
