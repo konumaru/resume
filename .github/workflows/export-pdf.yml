@@ -9,4 +9,4 @@ jobs:
       TZ: Asia/Tokyo
     steps:
       - name: Initialize
-        run: sudo apt update && apt install -y tzdata
+        run: apt update -y && apt install -y tzdata
