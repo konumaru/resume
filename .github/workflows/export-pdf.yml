@@ -21,8 +21,7 @@ jobs:
           # Default is true, can set to false to only get PDF files
           highlight_theme: styles/markdown-theme.css
           build_html: false
-      - name: Upload files
-        uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v3
         with:
           name: pdf
           path: ${{ env.artifactPath }}
