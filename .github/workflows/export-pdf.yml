@@ -10,9 +10,9 @@ jobs:
       artifactPath: output
     steps:
       - uses: actions/checkout@v2
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Gennerate PDF
+        uses: baileyjm02/markdown-to-pdf@v1
         with:
-          name: Gennerate PDF
           input_dir: docs
           output_dir: ${{ env.artifactPath }}
           # images_dir: img
@@ -21,7 +21,8 @@ jobs:
           # Default is true, can set to false to only get PDF files
           highlight_theme: styles/markdown-theme.css
           build_html: false
-      - uses: actions/upload-artifact@v3
+      - name: Upload files
+        uses: actions/upload-artifact@v3
         with:
           name: pdf
           path: ${{ env.artifactPath }}
