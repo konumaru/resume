@@ -2,14 +2,9 @@
 
 - [Github Pages](https://konumaru.github.io/resume/)
 
-
 ## Lint text
 
-```
+```sh
 $ npx textlint --fix docs/README.md
-```
-
-## Export PDF
-```
-$ npx md2pdf docs/README.md --stylesheet pdf-configs/style.css
+npx textlint --fix docs/README.md
 ```
