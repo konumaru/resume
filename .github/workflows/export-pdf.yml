@@ -3,14 +3,16 @@ name: Generate PDF
 on: push
 
 jobs:
-  convert_via_pandoc:
+  makepdfs:
     runs-on: ubuntu-latest
-    env:
-      TZ: Asia/Tokyo
     steps:
-      - name: Initialize
-        run: apt install -y pandoc wkhtmltopdf fonts-ipafont fonts-ipaexfont fc-cache -fv
-      - name: Make output directory
-        run: mkdir output
-      - name: Export pdf from docs/README.md
-        run: pandoc docs/README.md -s -o output/job_description.pdf
+      - uses: actions/checkout@v1
+      - uses: mkrakowitzer/actions-makepdfs@master
+        if: github.ref == 'refs/heads/master'
+        with:
+          markdown_dir: docs
+          output_dir: docs
+      - uses: actions/upload-artifact@v1
+        with:
+          name: platform-architecture-docs
+          path: docs
