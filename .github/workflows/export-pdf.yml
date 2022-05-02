@@ -9,4 +9,4 @@ jobs:
       TZ: Asia/Tokyo
     steps:
       - name: Initialize
-        run: sudo apt update -y && apt install -y tzdata
+        run: apt install -y pandoc wkhtmltopdf fonts-ipafont fonts-ipaexfont fc-cache -fv
