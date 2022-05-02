@@ -8,5 +8,6 @@ jobs:
     env:
       TZ: Asia/Tokyo
     steps:
+      - uses: actions/checkout@3
       - name: Initialize
         run: apt install -y pandoc wkhtmltopdf fonts-ipafont fonts-ipaexfont fc-cache -fv
