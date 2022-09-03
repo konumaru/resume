@@ -42,6 +42,7 @@
     - Figma, Jupyter Notebook などを用いたプロトタイピング
   - 実績
     - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
+    - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
 - **検索基盤**
   - Elasticsearch を利用した検索基盤の企画とプロジェクト進行
 
