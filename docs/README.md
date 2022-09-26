@@ -40,6 +40,12 @@
     - 実験計画の業務設計
     - 効果検証のための KPI 設計
     - Figma, Jupyter Notebook などを用いたプロトタイピング
+   - 体制
+     - PdM, 1 人
+     - Designer, 0.5 人
+     - Backend Engineer, 1 人
+     - Frontend Engineer, 0.5 人
+     - ML Enginner, 1 人
   - 実績
     - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
     - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
