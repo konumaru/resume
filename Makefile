@@ -1,5 +1,5 @@
 lint:
-	npx textlint --fix docs/README.md
+	sudo npx textlint --fix docs/README.md
 
 pdf:
-	npx md2pdf docs/README.md --stylesheet pdf-configs/style.css
+	sudo npx md2pdf docs/README.md --stylesheet pdf-configs/style.css

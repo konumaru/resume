@@ -13,6 +13,17 @@
 - [SpeakerDeck](https://speakerdeck.com/konumaru)
 - [Kaggle](https://www.kaggle.com/konumaru)
 
+## できること
+
+- 意思決定のためのデータ分析業務の整理やレポート作成など
+- 機械学習が関わるプロダクトマネージメント
+- 機械学習を用いた機能のプロトタイピングやPoC実施
+
+<!-- 
+特異なこと、得意だと言われること、苦手なことという項目を追加したい
+-> https://www.notion.so/kiwipop/a4c375b9ad4d41c7af6fb8975264e5a3
+ -->
+
 ---
 
 ## 経歴詳細
@@ -33,23 +44,19 @@
 
 #### PdM (2021/09 ~ 現在)
 
-- **レコメンドシステムの企画**
+- **ホーム画面のレコメンドシステムの企画**
   - 業務内容
     - ロードマップ策定
     - 実験計画の業務設計
     - 効果検証のための KPI 設計
     - Figma, Jupyter Notebook などを用いたプロトタイピング
-   - 体制
-     - PdM, 1 人
-     - Designer, 0.5 人
-     - Backend Engineer, 1 人
-     - Frontend Engineer, 0.5 人
-     - ML Enginner, 1 人
+  - 4人チーム
   - 実績
     - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
     - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
 - **検索基盤**
   - Elasticsearch を利用した検索基盤の企画とプロジェクト進行
+- コンテンツのカテゴリ分類
 
 ### Repro 株式会社（2019/04〜2021/08）
 
