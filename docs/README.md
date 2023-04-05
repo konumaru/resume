@@ -2,14 +2,13 @@
 
 ## 基本情報
 
-| Contents |        |
-| -------- | ------ |
-| 氏名     | 小沼塁 |
-
-[Twitter](https://twitter.com/konumaruuu)
-[note](https://note.com/konumr)
-[SpeakerDeck](https://speakerdeck.com/konumaru)
-[Kaggle](https://www.kaggle.com/konumaru)
+| Contents |                                                 |
+| -------- | ----------------------------------------------- |
+| 氏名     | 小沼塁                                          |
+| SNS      | [Twitter](https://twitter.com/konumaruuu)       |
+|          | [note](https://note.com/konumr)                 |
+|          | [SpeakerDeck](https://speakerdeck.com/konumaru) |
+|          | [Kaggle](https://www.kaggle.com/konumaru)       |
 
 
 ## やったことあること
