@@ -2,13 +2,11 @@
 
 ## 基本情報
 
-| Contents    |                                          |
-| ----------- | ---------------------------------------- |
-| 氏名        | 小沼塁                                   |
-| Twitter     | [Link](https://twitter.com/knmr_u)       |
-| note        | [Link](https://note.com/konumr)          |
-| SpeakerDeck | [Link](https://speakerdeck.com/konumaru) |
-| Kaggle      | [Link](https://www.kaggle.com/konumaru)  |
+| Contents |        |
+| -------- | ------ |
+| 氏名     | 小沼塁 |
+
+[Twitter](https://twitter.com/knmr_u) | [note](https://note.com/konumr) | [SpeakerDeck](https://speakerdeck.com/konumaru) | [Kaggle](https://www.kaggle.com/konumaru)
 
 
 ## やったことあること
@@ -127,18 +125,22 @@
 
 ### Pycalf
 
-- [Github repo](https://github.com/konumaru/pycalf)
+[repo](https://github.com/konumaru/pycalf)
+
 - 初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ
   - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
 
 ### (WIP) 恋愛シュミレーションChatBot
+
+[repo](https://github.com/konumaru/gpt_love)
+
 - GPTを利用して、ユーザ個別の恋愛相手を生成する
 - 恋愛が発展する会話をすることができる
-- [repo](https://github.com/konumaru/gpt_love)
  
 ### Slackbot Sample Size
 
-- [Github repo](https://github.com/konumaru/slackbot_sample_siz)
+[repo](https://github.com/konumaru/slackbot_sample_siz)
+
 - 偉い人からの「その AB テスト、本当に全ユーザで 50%:50%しないとだめ？怖いんだけど」みたいなときにサッとサンプルサイズを教えてくれる SlackBot
 
 ---
