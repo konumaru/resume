@@ -1,7 +1,5 @@
-name: Generate PDF
-
+name: Export PDF
 on: push
-
 jobs:
   converttopdf:
     name: Build PDF
