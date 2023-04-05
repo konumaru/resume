@@ -2,22 +2,20 @@
 
 ## 基本情報
 
-| Contents |                                                |
-| -------- | ---------------------------------------------- |
-| 氏名     | 小沼塁                                         |
-| 生年月日 | 1996/10/22                                     |
+| Contents    |                                          |
+| ----------- | ---------------------------------------- |
+| 氏名        | 小沼塁                                   |
+| Twitter     | [Link](https://twitter.com/knmr_u)       |
+| note        | [Link](https://note.com/konumr)          |
+| SpeakerDeck | [Link](https://speakerdeck.com/konumaru) |
+| Kaggle      | [Link](https://www.kaggle.com/konumaru)  |
 
-### その他の情報
 
-- [Twitter](https://twitter.com/knmr_u)
-- [SpeakerDeck](https://speakerdeck.com/konumaru)
-- [Kaggle](https://www.kaggle.com/konumaru)
+## やったことあること
 
-## できること
-
-- 意思決定のためのデータ分析業務の整理やレポート作成など
-- 機械学習が関わるプロダクトマネージメント
-- 機械学習を用いた機能のプロトタイピングやPoC実施
+- プロダクトマネージメント
+- ML/AIを使ったプロトタイピング
+- WEBサービスを対象にしたデータ分析とレポート作成
 
 <!-- 
 特異なこと、得意だと言われること、苦手なことという項目を追加したい
@@ -56,7 +54,7 @@
     - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
 - **検索基盤**
   - Elasticsearch を利用した検索基盤の企画とプロジェクト進行
-- コンテンツのカテゴリ分類
+- **コンテンツのカテゴリ分類**
 
 ### Repro 株式会社（2019/04〜2021/08）
 
@@ -133,6 +131,11 @@
 - 初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ
   - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
 
+### (WIP) 恋愛シュミレーションChatBot
+- GPTを利用して、ユーザ個別の恋愛相手を生成する
+- 恋愛が発展する会話をすることができる
+- [repo](https://github.com/konumaru/gpt_love)
+ 
 ### Slackbot Sample Size
 
 - [Github repo](https://github.com/konumaru/slackbot_sample_siz)
@@ -159,4 +162,4 @@
 - 強化学習
 - 実験管理ツール
   - Hydra, MLflow, Kubeflow
-- Django, Flask（個人開発）
+- Django, Flask, FastAPI（個人開発）
