@@ -125,6 +125,11 @@
   - [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
   - [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)
 
+### AIミュージックバトル！『弁財天』参加
+
+- [弁財天ホームページ](https://benzaiten.studio.site/)
+- [実装コード](https://github.com/konumaru/benzaiten)
+
 ### Pycalf
 
 [repo](https://github.com/konumaru/pycalf)
