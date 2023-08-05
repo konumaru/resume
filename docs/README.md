@@ -10,7 +10,6 @@
 |          | [SpeakerDeck](https://speakerdeck.com/konumaru) |
 |          | [Kaggle](https://www.kaggle.com/konumaru)       |
 
-
 ## やったことあること
 
 - プロダクトマネージメント
@@ -42,19 +41,14 @@
 
 #### PdM (2021/09 ~ 現在)
 
-- **ホーム画面のレコメンドシステムの企画**
-  - 業務内容
-    - ロードマップ策定
-    - 実験計画の業務設計
-    - 効果検証のための KPI 設計
-    - Figma, Jupyter Notebook などを用いたプロトタイピング
-  - 4人チーム
-  - 実績
-    - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
-    - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
-- **検索基盤**
+- **ホーム画面のレコメンドシステムの改善**
+  - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
+  - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
+- **検索基盤移行**
   - Elasticsearch を利用した検索基盤の企画とプロジェクト進行
-- **コンテンツのカテゴリ分類**
+- **推薦基盤構築**
+  - コンテンツのカテゴリ分類
+  - コンテンツモデレーション
 
 ### Repro 株式会社（2019/04〜2021/08）
 
@@ -124,6 +118,7 @@
 - 実績
   - [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
   - [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)
+  - [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play)
 
 ### AIミュージックバトル！『弁財天』参加
 
@@ -137,13 +132,13 @@
 - 初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ
   - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
 
-### (WIP) 恋愛シュミレーションChatBot
+### 恋愛シュミレーションChatBot
 
 [repo](https://github.com/konumaru/gpt_love)
 
 - GPTを利用して、ユーザ個別の恋愛相手を生成する
 - 恋愛が発展する会話をすることができる
- 
+
 ### Slackbot Sample Size
 
 [repo](https://github.com/konumaru/slackbot_sample_siz)
@@ -172,3 +167,10 @@
 - 実験管理ツール
   - Hydra, MLflow, Kubeflow
 - Django, Flask, FastAPI（個人開発）
+
+## 好きなもの・嫌いなもの
+
+- 好きなもの
+  - 漫画、音楽
+- 嫌いなもの
+  - セミ、カエル、町中華の杏仁豆腐
