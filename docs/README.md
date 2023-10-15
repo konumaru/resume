@@ -125,23 +125,22 @@
 - [弁財天ホームページ](https://benzaiten.studio.site/)
 - [実装コード](https://github.com/konumaru/benzaiten)
 
-### Pycalf
-
-[repo](https://github.com/konumaru/pycalf)
+### [Pycalf](https://github.com/konumaru/pycalf)
 
 - 初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ
   - 岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
 
-### 恋愛シュミレーションChatBot
-
-[repo](https://github.com/konumaru/gpt_love)
+### [恋愛シュミレーションChatBot](https://github.com/konumaru/gpt_love)
 
 - GPTを利用して、ユーザ個別の恋愛相手を生成する
 - 恋愛が発展する会話をすることができる
 
-### Slackbot Sample Size
+### [nlnomy - コンテンツモデレーションアプリ](https://github.com/konumaru/nlnomy)
 
-[repo](https://github.com/konumaru/slackbot_sample_siz)
+- 機械学習を用いたコンテンツモデレーションをシュミレーションできるサンプルアプリ
+- 日本語の文章を害悪性のある文章かどうかを判定する
+
+### [Slackbot Sample Size](https://github.com/konumaru/slackbot_sample_siz)
 
 - 偉い人からの「その AB テスト、本当に全ユーザで 50%:50%しないとだめ？怖いんだけど」みたいなときにサッとサンプルサイズを教えてくれる SlackBot
 
