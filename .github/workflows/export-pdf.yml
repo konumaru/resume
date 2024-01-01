@@ -1,5 +1,8 @@
 name: Export PDF
-on: push
+on:
+  push:
+    branches:
+      - main
 jobs:
   converttopdf:
     name: Build PDF
