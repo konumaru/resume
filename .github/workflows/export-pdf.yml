@@ -10,7 +10,7 @@ jobs:
     env:
       artifactPath: output
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Gennerate PDF
         uses: baileyjm02/markdown-to-pdf@v1
         with:
@@ -23,7 +23,7 @@ jobs:
           highlight_theme: styles/markdown-theme.css
           build_html: false
       - name: Upload files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: pdf
+          name: resume-pdf
           path: ${{ env.artifactPath }}
