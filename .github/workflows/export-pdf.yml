@@ -1,8 +1,10 @@
 name: Export PDF
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+  
 jobs:
   converttopdf:
     name: Build PDF
