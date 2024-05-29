@@ -2,53 +2,72 @@
 
 ## 基本情報
 
-| Contents |                                                 |
-| -------- | ----------------------------------------------- |
-| 氏名     | 小沼塁                                          |
-| SNS      | [Twitter](https://twitter.com/konumaruuu)       |
-|          | [note](https://note.com/konumr)                 |
-|          | [SpeakerDeck](https://speakerdeck.com/konumaru) |
-|          | [Kaggle](https://www.kaggle.com/konumaru)       |
+氏名：小沼塁
 
-## やったことあること
-
-- プロダクトマネージメント
-- ML/AIを使ったプロトタイピング
-- WEBサービスを対象にしたデータ分析とレポート作成
-
-<!-- 
-特異なこと、得意だと言われること、苦手なことという項目を追加したい
--> https://www.notion.so/kiwipop/a4c375b9ad4d41c7af6fb8975264e5a3
- -->
+[X](https://x.com/konumaruuu_v2) / [blog](https://konumaru.com/) / [note](https://note.com/konumr) / [SpeakerDeck](https://speakerdeck.com/konumaru) / [Kaggle](https://www.kaggle.com/konumaru)
 
 ---
 
-## 経歴詳細
+## 職歴要約
 
-<!-- Template:
+プロダクトマネジメントとデータ解析・機械学習の両面で実績があります。note株式会社ではホーム画面のレコメンド機能改善により、ユーザーエンゲージメントを向上。検索基盤の刷新と推薦基盤構築でコア機能も強化しました。一方Repro株式会社では、因果推論を用いたアプリ分析や、購買予測、最適プッシュ通知時間予測など複雑なデータ解析プロジェクトを担当。
+個人活動でもKaggleで成果を上げるほか、Pycalf(因果推論ライブラリ）やnlnomy(コンテンツモデレーションツール）といった実用的なオープンソースツールを開発しています。プロダクト開発とデータサイエンスの両方で技術力があり、工夫を重ねながら実践的に活動してきました。データ主導のプロダクトづくりを着実に推進できます。
+
+---
+
+## 活かせる経験・知識・スキル
+
+- プロダクトマネージメント
+- デジタルマーケティング
+- レコメンドシステム構築
+- 機械学習/生成AIを使ったプロトタイピング
+- Python,SQLを使ったデータ分析
+
+---
+
+## 職務内容
+
+<!-- Template
+
 ### 会社名 (YYYY/MM ~ YYYY/MM)
 
-主な職務について
-
 #### プロジェクト名
-- 業務内容
-- 実績
+- 課題
+- 体制
+- 成果
+
  -->
 
 ### note 株式会社（2021/09~現在）
 
-機械学習の実務経験を活かした機能開発に関するプロダクトマネージメント業務
+テクニカルプロダクトマネージャーとして、推薦検索、共通化されたAPI/デザインコンポーネントの開発、その他UIUX改善を担当
 
-#### PdM (2021/09 ~ 現在)
+#### ホーム画面のレコメンドシステムの改善名
 
-- **ホーム画面のレコメンドシステムの改善**
-  - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
-  - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
-- **検索基盤移行**
-  - Elasticsearch を利用した検索基盤の企画とプロジェクト進行
-- **推薦基盤構築**
-  - コンテンツのカテゴリ分類
-  - コンテンツモデレーション
+- 課題
+  - 当時フォロー中心のタイムラインとなっており、新たな発見をできる場は外部サービスに依存していた。そのため拡散力が弱いユーザーはnoteで活躍するのが困難な状況であり、これは会社のミッションとも反する現状であった。そのためフォロー以外の出会いを提供するために、ホーム画面のレコメンドシステムを改善することが必要であった。
+- 体制
+  - PdM 1名、エンジニア2名、データサイエンティスト1名、デザイナー 1名
+- 成果
+  - 半年ほどでルールベースのレコメンドシステムを構築、ABテストを行いPV数が向上することを確かめプロダクションに反映させた
+  - 関連記事
+    - [ホームリニューアルの実証実験の実施](https://note.com/info/n/n8b5b12967ee6)
+    - [ホームリニューアル](https://note.com/info/n/na6401a53bdb2)
+
+#### 検索基盤移行
+
+- 課題
+  - 当時AWS CloudSearchを利用していたが、様々なビジネス要件を満たすことができない状態だった。マネージドでありEngリソースが潤沢でない状態では良い技術選定であったが、検索の精度が低く、検索結果のカスタマイズが難しい状況であった。そのため、Elasticsearchに移行することが必要であった。
+- 体制
+  - PdM 1名、エンジニア2名
+- 成果
+  - プロジェクト立上げ時にインセプションデッキを用いてプロジェクトの目的を明確にし、プロジェクトの進捗を管理した
+  - Elasticsearchに移行することで検索精度が向上し、検索結果のカスタマイズが容易になった上に、コスト削減にも成功した
+
+#### 機械学習/生成AIを使ったプロトタイピング
+
+- OpenAI APIを用いた記事のカテゴリ分類
+- OpenAI APIを用いたコンテンツモデレーション
 
 ### Repro 株式会社（2019/04〜2021/08）
 
@@ -56,7 +75,7 @@
 
 機械学習エンジニアとして作ったプロトタイプをプロダクトとして市場に出したいと思い、職種を変更
 
-- 市場調査などを通した PRD / MRD の作成
+- 市場調査などを通したPRD / MRDの作成
 - ユーザーヒアリングなどを通した要求定義
 - 開発チームと共同した機能の要件定義
 
@@ -64,7 +83,7 @@
 
 - **因果推論を用いたアプリ行動の解析とレポーティング**
 - 業務内容
-  - ユーザーの行動データを用いて、特定の機能やキャンペーンが KPI に寄与するのか推定
+  - ユーザーの行動データを用いて、特定の機能やキャンペーンがKPIに寄与するのか推定
 - プロジェクト詳細
   - アプリ内行動データを用いた因果関係の検証
   - 仮説立案からレポートの作成を行った
@@ -75,14 +94,14 @@
   - プロジェクト詳細
     - 実験にあたり必要となる関係者との合意形成
     - 予測モデルが解決したい問題を定義
-    - BQ にあるデータを用いて Python で予測モデルを構築
+    - BQにあるデータを用いてPythonで予測モデルを構築
     - クライアント先での結果報告
 - **Push 配信時間帯の最適化モデルを検証**
   - 業務内容
     - ユーザーの行動データから最もプッシュ通知を開封しやすい時間帯を予測するモデルの検証
   - プロジェクト詳細
     - 予測モデルが解決したい問題を定義
-    - Bandit を用いたモデルを構築
+    - Banditを用いたモデルを構築
 
 ### Repro 株式会社（2018/07 ~ 2019/04）
 
@@ -91,20 +110,18 @@
 #### 株式会社 FOLIO
 
 - データ分析基盤の作成
-- AWS Redshift, Tableau を用いたダッシュボードの作成
+- AWS Redshift, Tableauを用いたダッシュボードの作成
 
 #### 株式会社ファンコミュニケーションズ
 
-- CTR 予測モデルの構築
+- CTR予測モデルの構築
 
 #### ディップ株式会社
 
 - リードスコアリングの機械学習モデル構築
-- エンジニアリクルーティング web サービスの作成
+- エンジニアリクルーティングwebサービスの作成
 
----
-
-## 業務外活動
+## 個人活動
 
 <!-- Template:
 ### 活動名
@@ -114,57 +131,65 @@
 
 ### Kaggle
 
-- Kaggle Expert
-- 実績
-  - [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
-  - [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)
-  - [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play)
+Kaggle Expert。
+以下は入賞したコンペティション
+
+- [M5 Forecasting - Accuracy](https://www.kaggle.com/c/m5-forecasting-accuracy)
+  - 時系列の需要予測
+- [CommonLit Readability Prize](https://www.kaggle.com/c/commonlitreadabilityprize)
+  - 自然言語処理を用いた文章の読みやすさの予測
+- [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play)
+  - ゲームプレイデータを用いた学生の成績予測
 
 ### AIミュージックバトル！『弁財天』参加
 
 - [弁財天ホームページ](https://benzaiten.studio.site/)
 - [実装コード](https://github.com/konumaru/benzaiten)
 
-### [Pycalf](https://github.com/konumaru/pycalf)
+### Pycalf
 
-初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ。岩波データサイエンス vol.03 に沿った因果推論の技術をまとめた Pypi で公開しているライブラリ
+[github](https://github.com/konumaru/pycalf)
 
-### [恋愛シュミレーションChatBot](https://github.com/konumaru/gpt_love)
+初歩的な因果推論の手法の適用とレポーティングを簡単に実現できるライブラリ。岩波データサイエンスvol.03に沿った因果推論の技術をまとめたPypiで公開しているライブラリ
+
+### 恋愛シミュレーションChatBot
+
+[github](https://github.com/konumaru/gpt_love)
 
 GPTを利用して、ユーザ個別の恋愛相手を生成する。恋愛が発展する会話をすることができる。
 Cloud RunとLINE APIを利用して、LINE上で動作する。
 
-### [nlnomy - コンテンツモデレーションアプリ](https://github.com/konumaru/nlnomy)
+### nlnomy - コンテンツモデレーションアプリ
 
-機械学習を用いたコンテンツモデレーションをシュミレーションできるサンプルアプリ。
+[github](https://github.com/konumaru/nlnomy)
+
+機械学習を用いたコンテンツモデレーションをシミュレーションできるサンプルアプリ。
 日本語の文章を害悪性のある文章かどうかを判定する
 
-### [Slackbot Sample Size](https://github.com/konumaru/slackbot_sample_siz)
+### Slackbot Sample Size
 
-偉い人からの「その AB テスト、本当に全ユーザで 50%:50%しないとだめ？怖いんだけど」みたいなときにサッとサンプルサイズを教えてくれる SlackBot
+[github](https://github.com/konumaru/slackbot_sample_siz)
 
-### [nlnomy](https://github.com/konumaru/nlnomy)
+偉い人からの「そのABテスト、本当に全ユーザで50%:50%しないとだめ？怖いんだけど」みたいなときにサッとサンプルサイズを教えてくれるSlackBot
+
+### nlnomy
+
+[github](https://github.com/konumaru/nlnomy)
 
 コンテンツモデレーションを目的としたアノテーションツール。
 入力テキストに対する害悪性をラベリングすることと、そのデータを使って機械学習モデルを作成することができるツール。
 
-### [sudra](https://github.com/konumaru/sudra)
+### sudra
+
+[github](https://github.com/konumaru/sudra)
 
 仮想通貨bot。ちょっと小銭を稼いでみたくなって作ったやつ。
 GCPで機械学習モデルを動かしたり、CI/CD組んだり、coverageを計測したり、勉強のためのいいお題にもなっている。なおリポジトリはprivate。
 
 ---
 
-### 言語
+## 希望条件
 
-- Python
-- Docker
-- SQL
-- Bigquery
-
-## 好きなもの・嫌いなもの
-
-- 好きなもの
-  - 漫画、音楽
-- 嫌いなもの
-  - セミ、カエル、町中華の杏仁豆腐
+- 基本リモートが良いが、たまに出社したい
+- 副業は月20時間以上
+  - スタートアップのアドバイザーや普段やれない開発などに関わりたい
