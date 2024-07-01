@@ -168,13 +168,6 @@ Cloud RunとLINE APIを利用して、LINE上で動作する。
 
 偉い人からの「そのABテスト、本当に全ユーザで50%:50%しないとだめ？怖いんだけど」みたいなときにサッとサンプルサイズを教えてくれるSlackBot
 
-### nlnomy
-
-[github](https://github.com/konumaru/nlnomy)
-
-コンテンツモデレーションを目的としたアノテーションツール。
-入力テキストに対する害悪性をラベリングすることと、そのデータを使って機械学習モデルを作成することができるツール。
-
 ### sudra
 
 [github](https://github.com/konumaru/sudra)
