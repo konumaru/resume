@@ -37,7 +37,7 @@
 
 ### 株式会社エクスプラザ（2024/09~現在）
 
-AI Producer (PdM)
+Lead AI Producer (PdM)
 
 #### 生成AI Partner事業（受託開発）
 
@@ -48,6 +48,8 @@ AI Producer (PdM)
   - チャットボット開発
   - 調査・企画のAIサポートツール
   - 生成AIを用いたデモサイト作成
+- その他
+  - アライアンス企業との協業案件企画(bizdev)
 
 #### 社内ツール開発
 
@@ -56,6 +58,10 @@ AI Producer (PdM)
 - 成果
   - スカウト文自動生成Chrome拡張
   - インスタリール動画の自動生成ツール
+  - OpenAI Agent SDKを用いたツール群
+    - Playwrightを活用した自働フォーム営業
+    - URLと操作目的を元にした自働ヘルプページ作成
+  - その他Crop&Marketingの業務効率化ツール
 
 ### note 株式会社（2021/09~2024/08）
 
