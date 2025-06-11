@@ -1,8 +1,9 @@
+name: Resume Update Reminder
 
-name: Update Reminder
 on:
   schedule:
-    - cron:  '0 0 1 */3 *'
+    - cron: "0 0 1 3,9 *"
+
 jobs:
   build:
     name: create issue
