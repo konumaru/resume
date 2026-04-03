@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx md-to-pdf:*)",
+      "Bash(npx --yes md-to-pdf docs/README.md --stylesheet styles/markdown-theme.css)",
+      "Bash(brew install:*)",
+      "Bash(brew list:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
