@@ -13,7 +13,11 @@ jobs:
       artifactPath: output
     steps:
       - uses: actions/checkout@v4
-      - name: Gennerate PDF
+      - name: Install Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Generate PDF
         uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_dir: docs
